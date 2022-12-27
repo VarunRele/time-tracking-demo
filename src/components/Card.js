@@ -27,7 +27,7 @@ const Card = ({ infoItem, cur }) => {
           </div>
         
 
-          <div className='bg-dark-blue h-3/4 md:h-[82%] rounded-xl z-10 p-4 md:p-5 text-white'>
+          <div className='bg-dark-blue hover:bg-desaturated-blue hover:cursor-pointer h-3/4 md:h-[82%] rounded-xl z-10 p-4 md:p-5 text-white'>
               <div className='flex justify-between'>
                   <p className='text-left text-sm md:text-[16px]'>{title}</p>
                   <p className='text-right mt-3 mb-4'><img src={eplises} alt="" className='' /></p>
